@@ -1,11 +1,9 @@
-function App() {
-  return (
-    <>
-      <h1 className="p-10 font-bold text-xl font-mono text-slate-600">
-        live long and prosper
-      </h1>
-    </>
-  )
-}
+import WindowManager from "./components/W";
 
-export default App
+export default function App() {
+  return (
+    <div className='w-screen h-screen overflow-hidden relative bg-gray-100'>
+      <WindowManager />
+    </div>
+  );
+}
